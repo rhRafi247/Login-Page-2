@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-y: hidden; */
+}
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .div1, .div2{
+    width: 50%;
+    height: 100vh;
+}
+.main .div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4258FF;
+    border-radius: 15px 0 0 15px;
+}
+.main .div1 h1{
+    font-size: 50px;
+    color: white;
+}
+.main .div1 button{
+    margin-top: 15px;
+    padding: 10px 90px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: none;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.main .div1 .loginE{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.main .div1 .loginE .line1{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 90px;
+    border-bottom: 2px solid white;
+}
+.main .div1 .loginE p{
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+.main .div1 label{
+    margin-top: 15px;
+    color: white;
+    margin-right: 303px;
+}
+.main .div1 input{
+    margin-top: 5px;
+    padding: 10px 90px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: none;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+
+
+.main .logged{
+    /* background-color: aliceblue; */
+    width: 370px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .logged div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .logged div p{
+    color: white;
+    margin-left: 9px;
+}
+.main .logged div input{
+    margin-bottom: 7px;
+}
+.main .logged a{
+    text-decoration: none;
+    color: white;
+}
+.main .div1 .login{
+    margin-top: 15px;
+    padding: 10px 90px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    color: #4258FF;
+    font-weight: bold;
+}
+.main .div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .div2 img{
+    width: 550px;
+}
